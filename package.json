@@ -1,0 +1,23 @@
+{
+  "name": "wordguess-cli",
+  "version": "1.0.0",
+  "description": "create a Word Guess command-line game using constructor functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainbojack1/WordGuess-Cli.git"
+  },
+  "author": "Jesselyn Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainbojack1/WordGuess-Cli/issues"
+  },
+  "homepage": "https://github.com/rainbojack1/WordGuess-Cli#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "prompt": "^1.0.0"
+  }
+}
