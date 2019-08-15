@@ -1,3 +1,7 @@
+var word = require("./word.js");
+
+
+
 /*
 **index.js**: The file containing the logic for the course of the game, which depends on `Word.js` and:
 

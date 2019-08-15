@@ -3,15 +3,14 @@ function Letter(letter){
     this.guessed = false,
     this.replace = function(){
         if(this.guessed){
-            console.log(this.letter);
             return this.letter;
         }
         else{
             return "__";
         }
     },
-    this.checkLetter = function(userGuess){
-        if(this.letter === this.userGuess){
+    this.checkLetter = function(ltr){
+        if(this.letter === ltr){
             this.guessed = true;
             this.replace();
         }
