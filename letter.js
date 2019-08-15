@@ -3,6 +3,7 @@ function Letter(letter){
     this.guessed = false,
     this.replace = function(){
         if(this.guessed){
+            console.log(this.letter);
             return this.letter;
         }
         else{
@@ -14,8 +15,12 @@ function Letter(letter){
             this.guessed = true;
             this.replace();
         }
+    },
+    this.print = function(){
+        console.log(letter);
     }
 }
+
 
 /** A string value to store the underlying character for the letter
 
